@@ -640,6 +640,10 @@
     [
       "220aef75-bd9b-4556-948f-6747cc9d4a38",
       "IMU"
+    ],
+    [
+      "acd13d05-657e-4647-937f-741a55e571a6",
+      "Power_Supply"
     ]
   ],
   "text_variables": {}

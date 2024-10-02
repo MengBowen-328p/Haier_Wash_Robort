@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 59.69 35.56)
-		(size 36.83 19.05)
+		(at 39.37 17.78)
+		(size 15.24 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "220aef75-bd9b-4556-948f-6747cc9d4a38")
 		(property "Sheetname" "IMU"
-			(at 59.69 34.8484 0)
+			(at 39.37 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +27,73 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 59.69 55.1946 0)
+			(at 39.37 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "IMU_MISO" input
+			(at 39.37 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a481f7d-952e-402e-a951-3138279cd17c")
+		)
+		(pin "IMU_FSYNC" input
+			(at 39.37 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f20280b3-c9e2-40c1-b6ec-8aae28b9d75f")
+		)
+		(pin "IMU_CS" input
+			(at 39.37 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd804735-14bb-488d-980a-d31ca07cc34a")
+		)
+		(pin "IMU_INT" input
+			(at 39.37 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "083a52ab-d5d1-422d-ae0c-b333de2af345")
+		)
+		(pin "IMU_CLK" input
+			(at 39.37 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4655d3c1-07ba-4611-b541-0d4c57ae4dd6")
+		)
+		(pin "IMU_MOSI" input
+			(at 39.37 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc974ad1-3d39-4264-9246-90487153507a")
 		)
 		(instances
 			(project "Hardware"
@@ -77,6 +137,44 @@
 			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 41.91)
+		(size 19.05 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acd13d05-657e-4647-937f-741a55e571a6")
+		(property "Sheetname" "Power_Supply"
+			(at 39.37 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 39.37 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware"
+				(path "/8d39550c-1c23-48e1-ae23-c502e9088467"
+					(page "4")
 				)
 			)
 		)
