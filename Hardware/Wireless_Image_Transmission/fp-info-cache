@@ -1,4 +1,4 @@
-23728698198511211
+23737338145009862
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88767,6 +88767,13 @@ Integrated Circuit
 49
 49
 SamacSys_Parts
+ESP32s
+ESP-32s-2
+Undefined or Miscellaneous
+0
+39
+39
+SamacSys_Parts
 FUSC3216X83N
 0685T4000-01
 Fuse
@@ -88865,6 +88872,13 @@ NFC_ANT
 2
 2
 SamacSys_Parts
+OSC-SMD_4P-L5.0-W3.2-P2.54-BL
+
+
+0
+4
+4
+SamacSys_Parts
 PJ050AH
 PJ-050AH
 Connector
@@ -88892,6 +88906,13 @@ Integrated Circuit
 0
 33
 33
+SamacSys_Parts
+QFN40P600X600X90-49N-D
+QFN48 (6x6 mm) Package
+Integrated Circuit
+0
+49
+49
 SamacSys_Parts
 QFN50P600X600X100-37N-D
 VFQFPN36
@@ -88957,7 +88978,7 @@ Integrated Circuit
 9
 SamacSys_Parts
 SOIC127P600X175-8N
-SOIC 8-
+sop8
 Integrated Circuit
 0
 8
@@ -88983,6 +89004,13 @@ Integrated Circuit
 0
 16
 16
+SamacSys_Parts
+SOIC127P790X216-8N
+8-Pin SOIC 208-mil (Package Code SS)
+Integrated Circuit
+0
+8
+8
 SamacSys_Parts
 SON50P200X200X80-9N
 DSG0008A  _ 2021
@@ -89095,6 +89123,13 @@ MOSFET (N-Channel)
 0
 3
 3
+SamacSys_Parts
+SOT95P280X140-6N
+HY2213-BB3A
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 SOT95P280X145-5N
 DBV0005A__

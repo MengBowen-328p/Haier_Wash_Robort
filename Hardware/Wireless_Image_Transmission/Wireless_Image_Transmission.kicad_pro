@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Hardware.kicad_pro",
+    "filename": "Wireless_Image_Transmission.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -536,8 +536,8 @@
         },
         {
           "group_by": false,
-          "label": "描述",
-          "name": "Description",
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
           "show": false
         },
         {
@@ -578,8 +578,8 @@
         },
         {
           "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
+          "label": "描述",
+          "name": "Description",
           "show": false
         }
       ],
@@ -630,32 +630,8 @@
   },
   "sheets": [
     [
-      "8d39550c-1c23-48e1-ae23-c502e9088467",
+      "44ec32b6-3d46-42e8-ab46-0a044570255b",
       "根目录"
-    ],
-    [
-      "73d81af6-1f97-4d28-9b15-c0f49fdb81c2",
-      "MCU_Core"
-    ],
-    [
-      "220aef75-bd9b-4556-948f-6747cc9d4a38",
-      "IMU"
-    ],
-    [
-      "acd13d05-657e-4647-937f-741a55e571a6",
-      "Power_Supply"
-    ],
-    [
-      "40bedbed-9ca5-4597-b8a7-97da2cb44045",
-      "Brush_Motor"
-    ],
-    [
-      "2192607e-a814-470f-bae0-4bc38ed998fe",
-      "Brushless_Motor"
-    ],
-    [
-      "c046c5dd-061b-4ce8-b795-b35c13fea97d",
-      "Sensors"
     ]
   ],
   "text_variables": {}
