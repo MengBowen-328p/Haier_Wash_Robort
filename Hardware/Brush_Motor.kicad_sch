@@ -7423,6 +7423,18 @@
 		)
 		(uuid "ff380d33-65bb-4804-bdd2-9755b4ae8c99")
 	)
+	(hierarchical_label "C_Brush+"
+		(shape input)
+		(at 266.7 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "081f8cac-af50-427f-b72f-f79482eda00d")
+	)
 	(hierarchical_label "C_Brush_Motor_IN2"
 		(shape input)
 		(at 252.73 161.29 180)
@@ -7555,6 +7567,18 @@
 		)
 		(uuid "54da9ce6-63b2-4efb-88f5-271b7797f9ef")
 	)
+	(hierarchical_label "L_Brush+"
+		(shape input)
+		(at 266.7 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69d5b88f-62b2-49fe-8927-b4bf870eb395")
+	)
 	(hierarchical_label "R_Brush_Motor_IN2"
 		(shape input)
 		(at 252.73 109.22 180)
@@ -7566,6 +7590,18 @@
 			(justify right)
 		)
 		(uuid "6d8a87e2-1bbd-45d7-98a5-ccb2b4ecab67")
+	)
+	(hierarchical_label "C_Brush-"
+		(shape input)
+		(at 266.7 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d4006fa-ce53-4ee3-a014-4789218ba998")
 	)
 	(hierarchical_label "R_Wheel_Motor_PWM1"
 		(shape input)
@@ -7579,6 +7615,18 @@
 		)
 		(uuid "a06d372d-9810-4ac4-b8de-bb2b9c612bc9")
 	)
+	(hierarchical_label "L_Brush-"
+		(shape input)
+		(at 266.7 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a41d475e-a71c-4958-a8b5-c422415e30e7")
+	)
 	(hierarchical_label "R_Wheel-"
 		(shape input)
 		(at 144.78 138.43 0)
@@ -7591,6 +7639,18 @@
 		)
 		(uuid "c6a9bf52-438f-4298-8400-7813b1e3faaa")
 	)
+	(hierarchical_label "R_Brush-"
+		(shape input)
+		(at 266.7 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd6ce007-aa76-477d-a5cd-2daa94c469c4")
+	)
 	(hierarchical_label "L_Wheel+"
 		(shape input)
 		(at 144.78 43.18 0)
@@ -7602,6 +7662,18 @@
 			(justify left)
 		)
 		(uuid "d48b7671-c5a4-4143-8eb2-3a3e0be46a2b")
+	)
+	(hierarchical_label "R_Brush+"
+		(shape input)
+		(at 266.7 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea8fc534-c626-4a88-a817-ee78d324c3fb")
 	)
 	(hierarchical_label "R_Wheel_Motor_PWM2"
 		(shape input)
@@ -7916,7 +7988,7 @@
 			(uuid "891e368c-e393-4022-856c-96e5fb44684f")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "IC7")
 					(unit 1)
@@ -8050,7 +8122,7 @@
 			(uuid "225b6149-bd89-4fda-92ac-a97307058023")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "C39")
 					(unit 1)
@@ -9784,7 +9856,7 @@
 			(uuid "955358eb-8f4f-40cd-92cd-b92ba1241e37")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "R29")
 					(unit 1)
@@ -11642,7 +11714,7 @@
 			(uuid "4180b66e-e73f-42aa-ac0b-fad62b560e22")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "C43")
 					(unit 1)
@@ -11978,7 +12050,7 @@
 			(uuid "92c3349a-ad77-4d2c-875a-c60d2b6d20ed")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "#PWR062")
 					(unit 1)
@@ -13290,7 +13362,7 @@
 			(uuid "bc0d8a5e-4835-4ef1-b6f3-76ede830e90e")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/40bedbed-9ca5-4597-b8a7-97da2cb44045"
 					(reference "#PWR061")
 					(unit 1)

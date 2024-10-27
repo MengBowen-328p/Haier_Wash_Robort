@@ -581,6 +581,12 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "uuid",
+          "name": "uuid",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -656,6 +662,10 @@
     [
       "c046c5dd-061b-4ce8-b795-b35c13fea97d",
       "Sensors"
+    ],
+    [
+      "7cf9c99b-b2a0-4d27-890b-e6995ccb2ee7",
+      "Ports"
     ]
   ],
   "text_variables": {}

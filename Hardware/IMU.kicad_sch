@@ -4398,7 +4398,7 @@
 			(uuid "700527d5-bcdf-4a6c-b917-b39dc16de13f")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "#PWR023")
 					(unit 1)
@@ -4535,7 +4535,7 @@
 			(uuid "4d87e278-aa29-4251-99bb-80f5175fe432")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "R11")
 					(unit 1)
@@ -4815,7 +4815,7 @@
 			(uuid "0bd38836-1c40-4e32-9356-d0030eb7eeee")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "Q1")
 					(unit 1)
@@ -4885,7 +4885,7 @@
 			(uuid "a471eb10-1470-4538-a4e9-2c037a63cf63")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "R10")
 					(unit 1)
@@ -4995,7 +4995,7 @@
 			(uuid "338e8de7-a0f5-450a-a784-a57edbb5347a")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "U2")
 					(unit 1)
@@ -5062,7 +5062,7 @@
 			(uuid "bec916e7-2406-40af-8b3e-97a02a9d89d3")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "C16")
 					(unit 1)
@@ -5396,7 +5396,7 @@
 			(uuid "f94b401f-db3e-4199-bee9-20fa2e6dd184")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "#PWR028")
 					(unit 1)
@@ -5461,7 +5461,7 @@
 			(uuid "a88b0436-4d49-46f8-a0be-b61e78c6dcea")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/220aef75-bd9b-4556-948f-6747cc9d4a38"
 					(reference "#PWR026")
 					(unit 1)

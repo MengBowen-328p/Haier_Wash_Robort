@@ -2532,6 +2532,66 @@
 			)
 			(uuid "dda16451-42ea-4747-92b9-c522e75d0586")
 		)
+		(pin "C_Brush+" input
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "152319eb-5321-4e43-997e-f3a2c73bed11")
+		)
+		(pin "C_Brush-" input
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ea477c1-2c9d-4add-bd82-733bc61195d4")
+		)
+		(pin "R_Brush+" input
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eced36df-e4a7-4317-af7b-109bbabf4871")
+		)
+		(pin "R_Brush-" input
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b3da87c-c593-4a37-acaf-0313859a9b4a")
+		)
+		(pin "L_Brush+" input
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a854e460-9ef1-4dae-8e64-d07996fda609")
+		)
+		(pin "L_Brush-" input
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b68cfe5f-4da8-4db3-87b2-549ecc042a7a")
+		)
 		(instances
 			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467"
@@ -2574,6 +2634,93 @@
 			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 49.53)
+		(size 39.37 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cf9c99b-b2a0-4d27-890b-e6995ccb2ee7")
+		(property "Sheetname" "Ports"
+			(at 163.83 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ports.kicad_sch"
+			(at 163.83 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "字段 2" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "L_Wheel-" input
+			(at 163.83 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eaca1e8a-6397-4d54-890a-05e3b2a72bfb")
+		)
+		(pin "L_Wheel+" input
+			(at 163.83 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f08c4082-d6eb-4866-80ef-b02e5505db3e")
+		)
+		(pin "R_Wheel+" input
+			(at 163.83 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e712622e-047d-4c1a-bb05-a5522d509145")
+		)
+		(pin "R_Wheel-" input
+			(at 163.83 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e15ff9bf-6c2e-4f55-95a1-fc2614122995")
+		)
+		(instances
+			(project "Hardware"
+				(path "/8d39550c-1c23-48e1-ae23-c502e9088467"
+					(page "8")
 				)
 			)
 		)
@@ -2717,7 +2864,7 @@
 		)
 	)
 	(sheet
-		(at 179.07 40.64)
+		(at 119.38 161.29)
 		(size 39.37 64.77)
 		(fields_autoplaced yes)
 		(stroke
@@ -2729,7 +2876,7 @@
 		)
 		(uuid "c046c5dd-061b-4ce8-b795-b35c13fea97d")
 		(property "Sheetname" "Sensors"
-			(at 179.07 39.9284 0)
+			(at 119.38 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2885,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 179.07 105.9946 0)
+			(at 119.38 226.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

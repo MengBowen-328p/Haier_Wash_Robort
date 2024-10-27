@@ -2510,7 +2510,7 @@
 			(uuid "9e2ceb48-2f62-409a-b268-eb67119d7e71")
 		)
 		(instances
-			(project ""
+			(project "Hardware"
 				(path "/8d39550c-1c23-48e1-ae23-c502e9088467/2192607e-a814-470f-bae0-4bc38ed998fe"
 					(reference "J8")
 					(unit 1)
