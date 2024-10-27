@@ -1,0 +1,303 @@
+(footprint "DIOM5126X245N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SS54")
+	(tags "Schottky Diode")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "97c6961b-914d-4584-9038-e690c2e51ac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SS54"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "862af237-ff24-4a7e-863d-293facd213c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "DIOM5126X245N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84470e6a-cb2d-4404-ac11-86a4c955b5d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2111080930_LGE-SS54_C2903855.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b4ae3b-4420-4c55-b2fb-7631b82fbbf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "40V 550mV@5A 5A SMA(DO-214AC) Schottky Barrier Diodes (SBD)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4db82fb-977e-4397-8e2c-0805796e0629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0fd31a3-4f2b-4c5e-bb4a-6cf027aebee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LGE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d2185a0-80fb-4dff-b524-667912834c01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SS54"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9081cd4-3e89-4833-866a-acc795ce9e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e5e4045-4550-4c85-9a2f-24491f3b7b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00950cec-1e32-4eeb-a8e6-041df4a29b5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9820dfa6-c382-4daf-9e32-0f2e4ef75719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc18bda4-cd68-405e-9905-9ee930f78f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.55 1.3)
+		(end 2.55 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95c0aec5-1c56-4268-bc4d-9cc9cb0b413a")
+	)
+	(fp_line
+		(start 2.55 -1.3)
+		(end -2.825 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2d04ddb-0b37-47f6-8149-819318b684de")
+	)
+	(fp_line
+		(start -3.4 -1.625)
+		(end 3.4 -1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1432013-531e-4323-a1f3-ad4d788a6197")
+	)
+	(fp_line
+		(start -3.4 1.625)
+		(end -3.4 -1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3b7baed-3004-43f0-81cd-33beea61d1cd")
+	)
+	(fp_line
+		(start 3.4 -1.625)
+		(end 3.4 1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9625981d-0501-4032-b2b0-4741533d73ad")
+	)
+	(fp_line
+		(start 3.4 1.625)
+		(end -3.4 1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b530308-7f5a-489a-b987-caa7d3b47dc2")
+	)
+	(fp_line
+		(start -2.55 -1.3)
+		(end 2.55 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22934f03-0cd6-450d-9620-2fc6432ef491")
+	)
+	(fp_line
+		(start -2.55 -0.525)
+		(end -1.775 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a626202-286a-4c7f-a5d6-ec46b7427b31")
+	)
+	(fp_line
+		(start -2.55 1.3)
+		(end -2.55 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9191390f-5904-4bc6-b0f2-00401dd065c5")
+	)
+	(fp_line
+		(start 2.55 -1.3)
+		(end 2.55 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2042a754-4a8a-4715-8fd8-8364ec22bdc6")
+	)
+	(fp_line
+		(start 2.55 1.3)
+		(end -2.55 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86d212de-4d4c-4168-ab53-dc07610a81ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "20ae79c5-516d-4d9a-b4c4-5d8a143e2d1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0 90)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1db8a9f4-cdac-4373-92b2-e6fa155bdad7")
+	)
+	(pad "2" smd rect
+		(at 2.05 0 90)
+		(size 1.55 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d50264d-8bea-4e9a-b48d-4c1b0958acbe")
+	)
+	(model "C:\\Users\\15216\\Documents\\KiCad\\7.0\\Library\\SamacSys_Parts.3dshapes\\SS54.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

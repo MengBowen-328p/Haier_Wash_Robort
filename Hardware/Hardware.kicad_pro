@@ -587,6 +587,12 @@
           "label": "uuid",
           "name": "uuid",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SuppliersPartNumber",
+          "name": "SuppliersPartNumber",
+          "show": false
         }
       ],
       "filter_string": "",

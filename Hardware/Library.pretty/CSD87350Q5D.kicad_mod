@@ -1,0 +1,556 @@
+(footprint "CSD87350Q5D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Q5D")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "61d59a0a-378d-4986-b4c9-8ec68c2500df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CSD87350Q5D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ed81ea27-a7f5-4404-904e-76a869fe7623")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CSD87350Q5D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98df46ad-a777-43b3-9c9e-913401943a78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd87350q5d.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617639005990&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7deb5a1-b690-42b7-aeed-cf56f2ba8543")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET Synch Buck NexFET Power Block"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6841e2aa-39e7-499e-97f1-ce7445fae710")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34478425-18d0-4b0f-b195-03a60ac9eb2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c97948d6-5f7d-4c1a-b651-f33f27f9e543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CSD87350Q5D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a22d0a61-1062-4b76-8128-f3be6e0129ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-CSD87350Q5D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114869c1-344a-4e75-b847-2c7471bd5e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD87350Q5D?qs=JoYuLptCJEEhVuDl%2F9%2FpHA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4815a119-2990-42a1-a332-d0568cf15f8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "CSD87350Q5D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e87e3cf-d5a6-4fd4-8654-dbfa67347e30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/csd87350q5d/texas-instruments?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c6d06d-f850-400c-9eae-73e38addfa75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a24a0bf3-64be-472d-b4ba-d81e4e8e887f")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d549d997-56c4-4c1d-8e04-2c529cb2df59")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db53f519-9ef3-4b50-82b3-61ef77dfe52b")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27526a4a-f527-400b-8193-e5472617ae16")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b09dc6bb-ad77-40fc-bc83-2dbf37625bfe")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "766dc8b7-b08e-471b-a990-dd35b26afbc1")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "303a7043-97ea-4b76-9d6e-74126b09f55b")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end -2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5100a113-376c-48fc-9689-4d35255cf981")
+	)
+	(fp_line
+		(start 2 -2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2951e1aa-44f1-444b-878d-1ebbcc8e3528")
+	)
+	(fp_line
+		(start 2 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28bf387f-280b-4830-9917-7a7c4bef3de9")
+	)
+	(fp_line
+		(start 2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51c2ede1-2103-48dd-bd09-a97b8ff9b86a")
+	)
+	(fp_line
+		(start 2 2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bc48bab-7651-4e83-b916-f6277ff1eb7f")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "316b79be-7f14-4978-84e1-6d3b1e268eb5")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53822a32-4bd9-4495-8a14-4d0b7d338799")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1689fea4-2b11-48a7-abd4-ba7d1a0536d5")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d69a61a5-ba50-4d21-825e-55941253015a")
+	)
+	(fp_line
+		(start 3.5 1.27)
+		(end 3.5 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f67f169-f710-48a9-9dab-1580f01ccb00")
+	)
+	(fp_line
+		(start 3.5 1.27)
+		(end 3.5 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb6a8081-9878-4878-8873-822403062f20")
+	)
+	(fp_line
+		(start 3.6 1.27)
+		(end 3.6 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2cb2930-d6ca-4f94-b042-c692ba1407d5")
+	)
+	(fp_arc
+		(start 3.5 1.27)
+		(mid 3.55 1.22)
+		(end 3.6 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b23048f-2000-4b25-ac57-a64a358adb31")
+	)
+	(fp_arc
+		(start 3.6 1.27)
+		(mid 3.55 1.32)
+		(end 3.5 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0934dd62-e156-424b-8582-d13d90a2d877")
+	)
+	(fp_arc
+		(start 3.6 1.27)
+		(mid 3.55 1.32)
+		(end 3.5 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "993717de-f0a5-41bb-8fae-6750de3f8539")
+	)
+	(fp_line
+		(start -4.12 -3.575)
+		(end 4.12 -3.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34d5d64e-5a57-497e-9e46-82e6325f2d50")
+	)
+	(fp_line
+		(start -4.12 3.575)
+		(end -4.12 -3.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d86d998f-27b6-4427-83c0-7ab22bd2e130")
+	)
+	(fp_line
+		(start 4.12 -3.575)
+		(end 4.12 3.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a1e219c-ba6b-4b15-936c-1b51675ee82a")
+	)
+	(fp_line
+		(start 4.12 3.575)
+		(end -4.12 3.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ce82bb7-8870-4523-9708-4570554e6f05")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbb4852c-c06b-408b-a99a-18f28093fd92")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fe9e533-476c-4540-a451-e815bd691a7b")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b5eec95-2d5e-467b-9595-05f77ee4f71b")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fb4042e-2e40-45ea-aaaf-303fa0e1af42")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "56c068c5-4048-47b0-b9d9-454b44b53652")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.695 1.27)
+		(size 0.85 1.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a671950c-3a41-44d1-b2cc-5f1dcdbffc50")
+	)
+	(pad "3" smd rect
+		(at 2.695 -0.635 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "38b83ba2-eccb-44ef-b6c7-349c357094b1")
+	)
+	(pad "4" smd rect
+		(at 2.695 -1.905 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ab824727-78eb-44a5-877c-786b1dd261f8")
+	)
+	(pad "5" smd rect
+		(at -2.695 -1.905 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f73cfba9-4d12-4461-a2b6-5de4253c6819")
+	)
+	(pad "6" smd rect
+		(at -2.695 -0.635 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f9817542-f83f-4825-9c69-706a319e5da3")
+	)
+	(pad "7" smd rect
+		(at -2.695 0.635 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d8794000-5a39-4a75-89cb-02455ff87d76")
+	)
+	(pad "8" smd rect
+		(at -2.695 1.905 90)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5452310e-05cd-421c-bdd1-d8a1bdf04a6f")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 3.48 4.46)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b417e5d8-4c4d-4e72-81de-e52fd9dff12c")
+	)
+	(pad "10" smd rect
+		(at 1.125 -2.402 90)
+		(size 0.345 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "711c0652-aa3c-40f9-b99e-dc287994d59f")
+	)
+	(pad "11" smd rect
+		(at -1.125 -2.402 90)
+		(size 0.345 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a10b4b85-32a9-46b5-a798-6285d022cf2f")
+	)
+	(pad "12" smd rect
+		(at -1.125 2.402 90)
+		(size 0.345 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7460707-4877-45aa-963c-a320a9b1a3ac")
+	)
+	(pad "13" smd rect
+		(at 1.125 2.402 90)
+		(size 0.345 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6fe7760-554e-4627-a6b4-bf665c8a69df")
+	)
+	(model "C:\\Users\\15216\\Documents\\KiCad\\7.0\\Library\\SamacSys_Parts.3dshapes\\CSD87350Q5D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

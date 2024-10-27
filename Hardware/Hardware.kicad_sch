@@ -2864,7 +2864,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 161.29)
+		(at 143.51 102.87)
 		(size 39.37 64.77)
 		(fields_autoplaced yes)
 		(stroke
@@ -2876,7 +2876,7 @@
 		)
 		(uuid "c046c5dd-061b-4ce8-b795-b35c13fea97d")
 		(property "Sheetname" "Sensors"
-			(at 119.38 160.5784 0)
+			(at 143.51 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +2885,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 119.38 226.6446 0)
+			(at 143.51 168.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1505,6 +1505,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:XC6206PxxxMR"
 			(pin_names
 				(offset 0.254)
@@ -5042,6 +5187,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 139.7) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a225204-110f-49f0-b1b7-df4860cda513")
+	)
+	(wire
+		(pts
 			(xy 26.67 41.91) (xy 43.18 41.91)
 		)
 		(stroke
@@ -6369,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "d6cd34a9-4815-4edb-9456-1fd70483824a")
+	)
+	(wire
+		(pts
+			(xy 53.34 139.7) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7da6c33-5ed4-476d-83ca-287cef3b17d8")
 	)
 	(wire
 		(pts
@@ -9389,17 +9554,6 @@
 		)
 		(uuid "67c8c7ff-8741-4d1a-83ec-7251454d042c")
 	)
-	(label "PSRAM_CLK"
-		(at 190.5 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bd4312c-9c0f-4a00-a6a2-7beadcf05728")
-	)
 	(label "Sensor_VP"
 		(at 26.67 31.75 0)
 		(fields_autoplaced yes)
@@ -9564,6 +9718,17 @@
 			(justify left bottom)
 		)
 		(uuid "929e5884-d982-4929-9617-a3c267554b34")
+	)
+	(label "IO0"
+		(at 53.34 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94dc0af4-f694-4ab8-b783-5fa7be7a3d6b")
 	)
 	(label "CSI_D5"
 		(at 152.4 82.55 180)
@@ -9884,6 +10049,17 @@
 		)
 		(uuid "f988d8e8-550b-4cb7-8bc0-5b95dd1344ca")
 	)
+	(label "PSRAM_CS"
+		(at 190.5 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcdb47f5-6937-43eb-a2cb-d431cf9a95f9")
+	)
 	(label "CSI_D2"
 		(at 152.4 67.31 180)
 		(fields_autoplaced yes)
@@ -10049,7 +10225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CSI-1.8V"
+		(property "Value" "CSI_1.8V"
 			(at 278.384 23.876 90)
 			(effects
 				(font
@@ -11207,7 +11383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CSI-1.8V"
+		(property "Value" "CSI_1.8V"
 			(at 159.004 98.806 90)
 			(effects
 				(font
@@ -14154,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CSI-1.8V"
+		(property "Value" "CSI_2.8V"
 			(at 227.584 23.876 90)
 			(effects
 				(font
@@ -15279,6 +15455,73 @@
 			(project "Wireless_Image_Transmission"
 				(path "/44ec32b6-3d46-42e8-ab46-0a044570255b"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 71.12 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5a3355f-c627-4dc5-b1f7-69a75d50df3e")
+		(property "Reference" "JP1"
+			(at 71.12 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EN"
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93ef79a8-e5b2-4baa-b5c2-f9a27bae15fd")
+		)
+		(pin "1"
+			(uuid "bcbc527f-f518-4fba-a876-7207a39f6b58")
+		)
+		(instances
+			(project ""
+				(path "/44ec32b6-3d46-42e8-ab46-0a044570255b"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -16592,6 +16835,72 @@
 			(project ""
 				(path "/44ec32b6-3d46-42e8-ab46-0a044570255b"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 139.7 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0780f08-1e8d-4c35-a57b-f45270a6e2a2")
+		(property "Reference" "#PWR048"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.012 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d8c3d11-ec1e-4907-a74c-4199ad536e31")
+		)
+		(instances
+			(project "Wireless_Image_Transmission"
+				(path "/44ec32b6-3d46-42e8-ab46-0a044570255b"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

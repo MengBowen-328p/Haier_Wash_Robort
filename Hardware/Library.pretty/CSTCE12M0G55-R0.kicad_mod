@@ -1,0 +1,310 @@
+(footprint "CSTCE12M0G55-R0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CSTCE12M0G55-R0")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at -0.282 -0.192 0)
+		(layer "F.SilkS")
+		(uuid "63872383-51ef-473f-b66b-b1f5e1685457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CSTCE16M00G55-R0"
+		(at -0.282 -0.192 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9cb58ae9-5180-4c92-8990-2c386b196762")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CSTCE12M0G55-R0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93bf3bf7-11f4-48b1-860e-64a2a7f064ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.murata.com/en-eu/api/pdfdownloadapi?cate=&partno=CSTCE8M00G55-R0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b08aeb6d-8b3a-419d-90c2-5772e744b769")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMT ceramic resonator 8.0MHz CSTCE8M00G55-R0, Ceramic Resonator, 8MHz Fundamental 33pF, 3-Pin Cap Chip, 3.2 x 1.3 x 0.7mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a41b7e35-7828-4fbc-82a7-24781fc2221d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4067f986-4126-4a11-8eae-c225bc4711fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8b043c-3c30-4fdc-a4c7-c09bf3c7cc3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CSTCE8M00G55-R0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1751a128-906e-4026-9e12-bb138cde4558")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "81-CSTCE8M00G55-R0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc3d7951-dd9e-43dd-8418-eeb943611b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTCE8M00G55-R0?qs=eoDEeL6nyORcaHhGM345mw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe1bc731-3212-43de-bcf4-6fef0e269dd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "CSTCE8M00G55-R0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e928c87-47e5-4b72-8036-a8e5fec87eec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cstce8m00g55-r0/murata-manufacturing"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb2feb7-1ace-4dfc-9d70-c0a40d58b194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a89b12c-24af-4356-aa97-60212680aa24")
+	)
+	(fp_line
+		(start -0.807 -0.65)
+		(end -0.428 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e6f8655-ac82-45e0-92c2-38f6ba06891a")
+	)
+	(fp_line
+		(start -0.783 0.65)
+		(end -0.404 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0fbf760-225b-447b-948c-8495a0773de2")
+	)
+	(fp_line
+		(start 0.417 -0.65)
+		(end 0.796 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "689a6eb0-ea78-4ba5-8873-8379041ce7de")
+	)
+	(fp_line
+		(start 0.417 0.65)
+		(end 0.796 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56c68177-9eed-47bc-a408-47b4137e1c94")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae678db2-4384-454a-877b-26c7166a4eff")
+	)
+	(fp_circle
+		(center -1.559 -1.228)
+		(end -1.559 -1.18186)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e81bcf67-e823-4f3e-abd7-1429932aea1b")
+	)
+	(fp_line
+		(start -1.6 -0.65)
+		(end 1.6 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "403f45fb-3a7a-4a53-8be6-764c61938856")
+	)
+	(fp_line
+		(start -1.6 0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2572bb54-15dd-4b6c-a972-9d6aef0de81c")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0858a58-24a6-4d05-9383-ba4af05c35eb")
+	)
+	(fp_line
+		(start 1.6 0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c46c69aa-4c6c-4a30-8394-16f8406ab8fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.282 -0.192 0)
+		(layer "F.Fab")
+		(uuid "e36c7256-aaa6-4093-9c31-f313efeb9d37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dabc46b7-9438-491d-96bc-90025886203e")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e208115a-1524-4bf5-9f32-c3210fe2782b")
+	)
+	(pad "3" smd rect
+		(at 1.2 0)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3e7269b-f992-4088-9980-d0755ddcf8d5")
+	)
+	(model "C:\\Users\\15216\\Documents\\KiCad\\7.0\\Library\\SamacSys_Parts.3dshapes\\CSTCE8M00G55-R0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
